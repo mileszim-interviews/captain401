@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+
+// Dependencies
+require("babel-register");
+let program = require('commander');
+let pkg = require('../package.json');
+
+program
+  .version(pkg.version)
+  .command('step1', 'Step 1')
+  .command('step2', 'Step 2')
+  .command('step3', 'Step 3')
+  .command('step4', 'Step 4')
+  .command('step5', 'Step 5')
+  .parse(process.argv);

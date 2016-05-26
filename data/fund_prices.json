@@ -1,10 +1,30 @@
 [
   {
-    "symbol": "VFIAX",
-    "price": 10.53
+    "symbol": "VTSAX",
+    "price": "52.04"
   },
   {
-    "symbol": "VTSAX",
-    "price": 90.2
+    "symbol": "VFIAX",
+    "price": "193.46"
+  },
+  {
+    "symbol": "VTABX",
+    "price": "21.82"
+  },
+  {
+    "symbol": "VTIAX",
+    "price": "24.42"
+  },
+  {
+    "symbol": "VGSLX",
+    "price": "117.69"
+  },
+  {
+    "symbol": "VTAPX",
+    "price": "24.57"
+  },
+  {
+    "symbol": "VBLTX",
+    "price": "14.07"
   }
 ]
