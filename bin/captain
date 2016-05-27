@@ -1,15 +1,37 @@
 #!/usr/bin/env node
+require('babel-register');
+require("babel-polyfill");
+
 
 // Dependencies
-require("babel-register");
 let program = require('commander');
-let pkg = require('../package.json');
 
-program
-  .version(pkg.version)
-  .command('step1', 'Step 1')
-  .command('step2', 'Step 2')
-  .command('step3', 'Step 3')
-  .command('step4', 'Step 4')
-  .command('step5', 'Step 5')
-  .parse(process.argv);
+
+// Steps
+let step1 = require('../lib/steps/step1').default;
+let step2 = require('../lib/steps/step2').default;
+let step3 = require('../lib/steps/step3').default;
+let step4 = require('../lib/steps/step4').default;
+let step5 = require('../lib/steps/step5').default;
+
+
+// Exec Wrapper
+function runStep(step, ...args) {
+  step(...args)
+  .then((output) => {
+    if (output) { console.log(output); }
+  })
+  .catch((error) => {
+    console.log(error);
+  });
+}
+
+
+// Command
+program.command('step1').action(() => { runStep(step1); })
+program.command('step2').action(() => { runStep(step2); })
+program.command('step3').action(() => { runStep(step3); })
+program.command('step4').action(() => { runStep(step4); })
+program.command('step5 <date>').action((date) => { runStep(step5, date); })
+
+program.parse(process.argv);

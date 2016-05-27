@@ -3,12 +3,12 @@
     "date": "1-1-2014",
     "portfolio": [
       {
-      "symbol": "VTSAX",
-      "shares": 31
+        "symbol": "VTSAX",
+        "shares": 31
       },
       {
-      "symbol": "VBLTX",
-      "shares": 115
+        "symbol": "VBLTX",
+        "shares": 115
       }
     ]
   },
