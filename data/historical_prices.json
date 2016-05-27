@@ -1260,16 +1260,6 @@
     "price": 46.27
   },
   {
-    "date": "2013-12-31",
-    "symbol": "VTSAX",
-    "price": 46.689999
-  },
-  {
-    "date": "2013-12-30",
-    "symbol": "VTSAX",
-    "price": 46.5
-  },
-  {
     "date": "2014-12-31",
     "symbol": "VFIAX",
     "price": 189.889999
@@ -2528,16 +2518,6 @@
     "date": "2014-01-02",
     "symbol": "VFIAX",
     "price": 168.880005
-  },
-  {
-    "date": "2013-12-31",
-    "symbol": "VFIAX",
-    "price": 170.360001
-  },
-  {
-    "date": "2013-12-30",
-    "symbol": "VFIAX",
-    "price": 169.679993
   },
   {
     "date": "2014-12-31",
@@ -3800,16 +3780,6 @@
     "price": 19.83
   },
   {
-    "date": "2013-12-31",
-    "symbol": "VTABX",
-    "price": 19.809999
-  },
-  {
-    "date": "2013-12-30",
-    "symbol": "VTABX",
-    "price": 19.809999
-  },
-  {
     "date": "2014-12-31",
     "symbol": "VTIAX",
     "price": 26
@@ -5068,16 +5038,6 @@
     "date": "2014-01-02",
     "symbol": "VTIAX",
     "price": 27.610001
-  },
-  {
-    "date": "2013-12-31",
-    "symbol": "VTIAX",
-    "price": 28.01
-  },
-  {
-    "date": "2013-12-30",
-    "symbol": "VTIAX",
-    "price": 27.950001
   },
   {
     "date": "2014-12-31",
@@ -6340,16 +6300,6 @@
     "price": 91.440002
   },
   {
-    "date": "2013-12-31",
-    "symbol": "VGSLX",
-    "price": 91.580002
-  },
-  {
-    "date": "2013-12-30",
-    "symbol": "VGSLX",
-    "price": 92.07
-  },
-  {
     "date": "2014-12-31",
     "symbol": "VTAPX",
     "price": 24.209999
@@ -7610,16 +7560,6 @@
     "price": 24.719999
   },
   {
-    "date": "2013-12-31",
-    "symbol": "VTAPX",
-    "price": 24.700001
-  },
-  {
-    "date": "2013-12-30",
-    "symbol": "VTAPX",
-    "price": 24.700001
-  },
-  {
     "date": "2014-12-31",
     "symbol": "VBLTX",
     "price": 14.26
@@ -8878,15 +8818,5 @@
     "date": "2014-01-02",
     "symbol": "VBLTX",
     "price": 12.49
-  },
-  {
-    "date": "2013-12-31",
-    "symbol": "VBLTX",
-    "price": 12.41
-  },
-  {
-    "date": "2013-12-30",
-    "symbol": "VBLTX",
-    "price": 12.51
   }
 ]
